@@ -9,17 +9,25 @@
 </head>
 
 <body>
-  <div class="items">
-    <p>Hi I'm a item</p>
-    <div>
-      <h2>Sub Div</h2>
-      <p>Hi I'm a item</p>
 
-    </div>
-    <img src="https://source.unsplash.com/random/300x300" />
-    <p>Hi I'm a item</p>
-    <p>Hi I'm a item</p>
-  </div>
+  <script src="./DOM-Cardio.js"></script>
+  <style>
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 20px;
+      padding: 20px;
+    }
+
+    .playerCard {
+      background: white;
+      padding: 20px;
+    }
+
+    .playerCard h2 {
+      color: black;
+    }
+  </style>
 </body>
 
 </html>
